@@ -4,19 +4,31 @@
 #Desired output:
 #Average spam confidence: 0.7507185185185187
 
+
+
 fname = input("Enter file name: ")
-fh = open(fname)
 total=0
 count=0
+
+#check if file name correspond to an available file
+try:
+    fh=open(fname,'r')
+except:
+    print('Wrong file name. Insert a valid file name:')
+    quit()
+
+#Slice values like requested, convert them into floats and compute average
 for line in fh:
     line=line.strip()
     if not line.startswith("X-DSPAM-Confidence:"):
         continue
+
     count=count+1
     pos=line.find(':')
     svalue=(line[pos+1:])
     total=total+float(svalue)
     average=total/count
-type(svalue)
+
 print("Average spam confidence:",average)
+
 print('Done')
