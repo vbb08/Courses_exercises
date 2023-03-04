@@ -3,8 +3,8 @@
 Examples of exercises made during the "Python for everybody" specialization in Coursera.org platform : https://www.coursera.org/specializations/python
 
 The specialization is composed of different courses:
-- *Python Data Structures 2/5* (IN PROGRESS)
-- *Using Python to Access Web Data 3/5* (TO BE DONE)
+- *Python Data Structures 2/5* (COMPLETED)
+- *Using Python to Access Web Data 3/5* (IN PROGRESS)
 - *Using Databases with Python 4/5* (TO BE DONE)
 - *Capstone: Retrieving, Processing, and Visualizing Data with Python5/5* (TO BE DONE)
 
