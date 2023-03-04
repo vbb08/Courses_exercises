@@ -17,4 +17,5 @@ for line in x:
     for num in y:
         if len(y)>0:
             sum=sum+int(num)
+            
 print(sum)
