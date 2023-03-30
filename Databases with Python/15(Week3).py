@@ -2,6 +2,7 @@
 Musical Track Database
 This application will read an iTunes export file in XML and produce a properly normalized database with this structure:
 
+--------------
 CREATE TABLE Artist (
     id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
     name    TEXT UNIQUE
@@ -26,7 +27,7 @@ CREATE TABLE Track (
     genre_id  INTEGER,
     len INTEGER, rating INTEGER, count INTEGER
 );
-
+---------------
 
 You can use this code as a starting point for your application: http://www.py4e.com/code3/tracks.zip. The ZIP file contains the Library.xml file to be used for this assignment.
 
